@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Happy New Year</title>
+</head>
+<body>
+    
+    <div class="countdown-container">
+        <header>
+            HELLO <span id="year"></span>
+        </header>
+        <div class="timer-container">
+            <div class="box"><span id="days">100</span><br>days</div>
+            <div class="box"><span id="hours">100</span><br>hours</div>
+            <div class="box"><span id="minutes">100</span><br>minutes</div>
+            <div class="box"><span id="seconds">100</span><br>seconds</div>
+        </div>
+    </div>
+
+
+    <div class="new-year-modal" id="modal">
+        <div class="close" id="close">Close</div>
+        <button id="happy-new-year">Happy New Year</button>
+
+        <video id="myVideo" width="90%" height="90%">
+            <source src="new-year.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

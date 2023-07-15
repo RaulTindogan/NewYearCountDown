@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Carter One', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(puppy.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2%;
+}
+
+.countdown-container {
+    width: 90%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+header {
+    font-size: 2rem;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    color: black;
+}
+
+.timer-container {
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.box span {
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+header span {
+    margin-left: 30px;
+}
+
+.new-year-modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.729);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    display: none;
+}
+
+#happy-new-year {
+    font-size: 5vw;
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(248, 248, 3);
+    cursor: pointer;
+    z-index: 20;
+}
+
+#happy-new-year:hover { 
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 248, 3);
+}
+
+.close {
+    width: 60px;
+    height: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.close:hover {
+    background-color: white;
+    color: red;
+}
