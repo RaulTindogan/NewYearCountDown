@@ -4,7 +4,7 @@ let minutesText = document.getElementById('minutes');
 let secondsText = document.getElementById('seconds');
 let headingYear = document.getElementById('year');
 
-let anotherYear = 2024;
+let anotherYear = 2025;
 
 let myvid = document.getElementById('myVideo');
 let newYearBtn = document.getElementById('happy-new-year');
@@ -43,6 +43,7 @@ function click() {
     myvid.style.display = "block";
     closeBtn.style.display = "flex";
     myvid.play();
+    anotherYear++;
 } 
 
 closeBtn.addEventListener('click', closeFunc);
