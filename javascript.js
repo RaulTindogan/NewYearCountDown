@@ -43,7 +43,6 @@ function click() {
     myvid.style.display = "block";
     closeBtn.style.display = "flex";
     myvid.play();
-    anotherYear++;
 } 
 
 closeBtn.addEventListener('click', closeFunc);
